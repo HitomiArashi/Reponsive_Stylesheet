@@ -40,6 +40,23 @@ html{
     scroll-behavior: smooth;
 }
 
+p {
+  width: 90%;          /* take up 90% of the window width */
+  margin: 0 auto;      /* center it horizontally */
+  padding: 0 10px;     /* small spacing from edges */
+  text-align: left;  /* center align text (optional) */
+}
+
+.button-container {
+  width: 90%;          /* flexible width */
+  max-width: 900px;    /* don’t go wider than 900px */
+  margin: 20px auto;   /* center horizontally + spacing from top/bottom */
+  display: flex;
+  gap: 10px;           /* spacing between buttons */
+  justify-content: center; /* center buttons inside */
+}
+
+
 h1 {
     text-align: center;
     font-family:Arial, sans-serif;
